@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getMovies } from '../api/tmdb';
+import { getMovies } from '../api/backend';
 // import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import FeaturedCarousel from '../components/FeaturedCarousel';
